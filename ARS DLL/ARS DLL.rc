@@ -1,0 +1,186 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\ARS DLL.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "ARS DLL DLL\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "ARS DLL\0"
+            VALUE "LegalCopyright", "Copyright (C) 2003\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "ARS DLL.DLL\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "ARS DLL Dynamic Link Library\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ERR_DELETE_RUNNING_JOB  "Can't delete job %s because it was still running (error %d)."
+    ERR_DEL_JOB_NO_EXIST    "Couldn't delete job because it didn't exist on server (error %d)."
+    ERR_MOD_JOB_NO_EXIST    "Couldn't modify job because it doesn't exist on this server (msg %d)."
+    ERR_MOD_RUNNING_JOB     "Couldn't modify job because job was running (msg %d)."
+    ERR_RUN_JOB_NO_EXIST    "Couldn't run job because it doesn't exist on server (msg %d)."
+    ERR_JOB_NO_EXIST        "Job doesn't exist on server (msg %d)."
+    ERR_SOCKET_CANT_CONNECT "Couldn't connect to server ""%s"" (msg %d)."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    STAT_JOB_DEL_SUCCESS    "Job ""%s"" deleted successfully (msg %d)."
+    STAT_JOB_CREATE_SUCCESS "Job created successfully (msg %d)."
+    STAT_JOB_MOD_SUCCESS    "Job modified successfully (msg %d)."
+    STAT_JOB_RUN_SUCCESS    "Job ""%s"" was started successfully (msg %d)."
+    STAT_JOB_DISABLED       "Job ""%s"" was disabled (msg %d)."
+    STAT_JOB_FOUND          "Job ""%s"" was found on the server (msg %d)."
+    STAT_JOB_MOD_CANCELLED  "Job wasn't saved because user pressed cancel button (msg %d)."
+    STAT_JOB_ENABLED        "Job ""%s"" was enabled (msg %d)."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    WARN_JOB_ALREADY_RUNNING """%s"" job was already running (msg %d)."
+    WARN_JOB_ALREADY_DISABLED "Job was already disabled (msg %d)."
+    WARN_JOB_ALREADY_ENABLED "Job ""%s"" was already enabled (msg %d)."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    Q_STOP_JOB_THEN_DELETE  "The job is currently running.  Do you want it stopped then deleted? (msg %d)"
+    Q_CONFIRM_DELETE_JOB    "Are you sure you want to delete job ""%s""? (msg %d)"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ERR_STOP_JOB_WAIT_EXCEEDED "Job didn't stop after %.2f seconds (msg %d)."
+    ERR_JOB_NOT_SELECTED    "You didn't select a job (msg %d)."
+    ERR_NO_BACK_SERVER      "There was no backup server selected (msg %d)."
+    ERR_SOCKET_ERROR        "Misc Sockets error ""%s"" (msg %d)."
+    ERR_MOD_JOB_NO_STOP     "Couldn't modify job because it wouldn't shutdown (msg %d);"
+    ERR_DUPLICATE_JOB       "A job with that name already exists (msg %d)."
+    ERR_DUPLICATE_DIR       "This backup directory is already in use, two jobs can't use the same backup directory (msg %d)."
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\ARS DLL.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

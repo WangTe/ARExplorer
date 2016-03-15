@@ -1,0 +1,196 @@
+<html>
+<head>
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=Windows-1252">
+</head>
+<body>
+<pre>
+<table width=100% bgcolor=#CFCFE5><tr> <td> <font face=arial size=+3>
+Build Log
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>
+<h3>------- Build started: Project: ARS DLL, Configuration: Debug|Win32 -------
+</h3>
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Command Lines
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>Creating temporary file "c:\Documents and Settings\mellerts\My Documents\Developer\ARAccelerators\Ars dll\Debug\RSP00003D.rsp" with contents
+[
+/Od /I "..\BackupService" /I "..\..\ARSystem 5.1\include" /I "..\..\CBlockSocket Class" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXEXT" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /FD /EHsc /RTC1 /MD /Yc"stdafx.h" /Fp".\Debug/ARS DLL.pch" /Fo".\Debug/" /Fd".\Debug/" /FR".\Debug/" /W3 /c /ZI
+".\StdAfx.cpp"
+]
+Creating command line "cl.exe @"c:\Documents and Settings\mellerts\My Documents\Developer\ARAccelerators\Ars dll\Debug\RSP00003D.rsp" /nologo"
+Creating temporary file "c:\Documents and Settings\mellerts\My Documents\Developer\ARAccelerators\Ars dll\Debug\RSP00003E.rsp" with contents
+[
+/Od /I "..\BackupService" /I "..\..\ARSystem 5.1\include" /I "..\..\CBlockSocket Class" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXEXT" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /FD /EHsc /RTC1 /MD /Yu"stdafx.h" /Fp".\Debug/ARS DLL.pch" /Fo".\Debug/" /Fd".\Debug/" /FR".\Debug/" /W3 /c /ZI
+".\Weekly.cpp"
+".\Schedule.cpp"
+".\RecordList.cpp"
+".\Record.cpp"
+".\Monthly.cpp"
+".\FormList.cpp"
+".\Form.cpp"
+".\FieldList.cpp"
+".\Field.cpp"
+".\EntryId.cpp"
+".\DumpARX.cpp"
+".\Daily.cpp"
+".\CommPacket.cpp"
+".\BlockingSocketFile.cpp"
+".\BackupJob.cpp"
+".\ARSException.cpp"
+".\ARSConnection.cpp"
+".\ARS DLL.cpp"
+".\AckMsg.cpp"
+]
+Creating command line "cl.exe @"c:\Documents and Settings\mellerts\My Documents\Developer\ARAccelerators\Ars dll\Debug\RSP00003E.rsp" /nologo"
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Output Window
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>Compiling...
+StdAfx.cpp
+Compiling...
+Weekly.cpp
+Schedule.cpp
+c:\Documents and Settings\mellerts\My Documents\Developer\ARAccelerators\ARS DLL\Schedule.cpp(45) : warning C4244: 'return' : conversion from '__time64_t' to 'time_t', possible loss of data
+c:\Documents and Settings\mellerts\My Documents\Developer\ARAccelerators\ARS DLL\Schedule.cpp(49) : warning C4244: 'return' : conversion from '__time64_t' to 'time_t', possible loss of data
+c:\Documents and Settings\mellerts\My Documents\Developer\ARAccelerators\ARS DLL\Schedule.cpp(53) : warning C4244: 'return' : conversion from '__time64_t' to 'time_t', possible loss of data
+c:\Documents and Settings\mellerts\My Documents\Developer\ARAccelerators\ARS DLL\Schedule.cpp(57) : warning C4244: 'return' : conversion from '__time64_t' to 'time_t', possible loss of data
+RecordList.cpp
+c:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\atlmfc\include\afxtempl.h(154) : error C2678: binary '==' : no operator found which takes a left-hand operand of type 'const CFieldValuePair' (or there is no acceptable conversion)
+        c:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\atlmfc\include\afxtempl.h(1158) : see reference to function template instantiation 'BOOL CompareElements<TYPE,CFieldValuePair>(const TYPE *,const ARG_TYPE *)' being compiled
+        with
+        [
+            TYPE=CFieldValuePair,
+            ARG_TYPE=CFieldValuePair
+        ]
+        c:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\atlmfc\include\atlsimpstr.h(387) : while compiling class-template member function 'POSITION CList<TYPE,ARG_TYPE>::Find(ARG_TYPE,POSITION) const'
+        with
+        [
+            TYPE=CFieldValuePair,
+            ARG_TYPE=CFieldValuePair &
+        ]
+        c:\Documents and Settings\mellerts\My Documents\Developer\ARAccelerators\ARS DLL\Record.h(79) : see reference to class template instantiation 'CList<TYPE,ARG_TYPE>' being compiled
+        with
+        [
+            TYPE=CFieldValuePair,
+            ARG_TYPE=CFieldValuePair &
+        ]
+c:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\atlmfc\include\afxtempl.h(154) : error C2678: binary '==' : no operator found which takes a left-hand operand of type 'const CEntryId' (or there is no acceptable conversion)
+        c:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\atlmfc\include\afxtempl.h(1158) : see reference to function template instantiation 'BOOL CompareElements<TYPE,CEntryId>(const TYPE *,const ARG_TYPE *)' being compiled
+        with
+        [
+            TYPE=CEntryId,
+            ARG_TYPE=CEntryId
+        ]
+        c:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\atlmfc\include\atlsimpstr.h(387) : while compiling class-template member function 'POSITION CList<TYPE,ARG_TYPE>::Find(ARG_TYPE,POSITION) const'
+        with
+        [
+            TYPE=CEntryId,
+            ARG_TYPE=CEntryId &
+        ]
+        c:\Documents and Settings\mellerts\My Documents\Developer\ARAccelerators\ARS DLL\RecordList.h(23) : see reference to class template instantiation 'CList<TYPE,ARG_TYPE>' being compiled
+        with
+        [
+            TYPE=CEntryId,
+            ARG_TYPE=CEntryId &
+        ]
+Record.cpp
+c:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\atlmfc\include\afxtempl.h(154) : error C2678: binary '==' : no operator found which takes a left-hand operand of type 'const CFieldValuePair' (or there is no acceptable conversion)
+        c:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\atlmfc\include\afxtempl.h(1158) : see reference to function template instantiation 'BOOL CompareElements<TYPE,CFieldValuePair>(const TYPE *,const ARG_TYPE *)' being compiled
+        with
+        [
+            TYPE=CFieldValuePair,
+            ARG_TYPE=CFieldValuePair
+        ]
+        c:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\atlmfc\include\atlsimpstr.h(387) : while compiling class-template member function 'POSITION CList<TYPE,ARG_TYPE>::Find(ARG_TYPE,POSITION) const'
+        with
+        [
+            TYPE=CFieldValuePair,
+            ARG_TYPE=CFieldValuePair &
+        ]
+        c:\Documents and Settings\mellerts\My Documents\Developer\ARAccelerators\ARS DLL\Record.h(79) : see reference to class template instantiation 'CList<TYPE,ARG_TYPE>' being compiled
+        with
+        [
+            TYPE=CFieldValuePair,
+            ARG_TYPE=CFieldValuePair &
+        ]
+Monthly.cpp
+FormList.cpp
+Form.cpp
+FieldList.cpp
+Field.cpp
+EntryId.cpp
+c:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\atlmfc\include\afxtempl.h(154) : error C2678: binary '==' : no operator found which takes a left-hand operand of type 'const CFieldValuePair' (or there is no acceptable conversion)
+        c:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\atlmfc\include\afxtempl.h(1158) : see reference to function template instantiation 'BOOL CompareElements<TYPE,CFieldValuePair>(const TYPE *,const ARG_TYPE *)' being compiled
+        with
+        [
+            TYPE=CFieldValuePair,
+            ARG_TYPE=CFieldValuePair
+        ]
+        c:\Documents and Settings\mellerts\My Documents\Developer\ARAccelerators\ARS DLL\EntryId.cpp(29) : while compiling class-template member function 'POSITION CList<TYPE,ARG_TYPE>::Find(ARG_TYPE,POSITION) const'
+        with
+        [
+            TYPE=CFieldValuePair,
+            ARG_TYPE=CFieldValuePair &
+        ]
+        c:\Documents and Settings\mellerts\My Documents\Developer\ARAccelerators\ARS DLL\Record.h(79) : see reference to class template instantiation 'CList<TYPE,ARG_TYPE>' being compiled
+        with
+        [
+            TYPE=CFieldValuePair,
+            ARG_TYPE=CFieldValuePair &
+        ]
+DumpARX.cpp
+c:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\atlmfc\include\afxtempl.h(154) : error C2678: binary '==' : no operator found which takes a left-hand operand of type 'const CFieldValuePair' (or there is no acceptable conversion)
+        c:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\atlmfc\include\afxtempl.h(1158) : see reference to function template instantiation 'BOOL CompareElements<TYPE,CFieldValuePair>(const TYPE *,const ARG_TYPE *)' being compiled
+        with
+        [
+            TYPE=CFieldValuePair,
+            ARG_TYPE=CFieldValuePair
+        ]
+        c:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\atlmfc\include\atlsimpstr.h(387) : while compiling class-template member function 'POSITION CList<TYPE,ARG_TYPE>::Find(ARG_TYPE,POSITION) const'
+        with
+        [
+            TYPE=CFieldValuePair,
+            ARG_TYPE=CFieldValuePair &
+        ]
+        c:\Documents and Settings\mellerts\My Documents\Developer\ARAccelerators\ARS DLL\Record.h(79) : see reference to class template instantiation 'CList<TYPE,ARG_TYPE>' being compiled
+        with
+        [
+            TYPE=CFieldValuePair,
+            ARG_TYPE=CFieldValuePair &
+        ]
+c:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\atlmfc\include\afxtempl.h(154) : error C2678: binary '==' : no operator found which takes a left-hand operand of type 'const CEntryId' (or there is no acceptable conversion)
+        c:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\atlmfc\include\afxtempl.h(1158) : see reference to function template instantiation 'BOOL CompareElements<TYPE,CEntryId>(const TYPE *,const ARG_TYPE *)' being compiled
+        with
+        [
+            TYPE=CEntryId,
+            ARG_TYPE=CEntryId
+        ]
+        c:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\atlmfc\include\atlsimpstr.h(387) : while compiling class-template member function 'POSITION CList<TYPE,ARG_TYPE>::Find(ARG_TYPE,POSITION) const'
+        with
+        [
+            TYPE=CEntryId,
+            ARG_TYPE=CEntryId &
+        ]
+        c:\Documents and Settings\mellerts\My Documents\Developer\ARAccelerators\ARS DLL\RecordList.h(23) : see reference to class template instantiation 'CList<TYPE,ARG_TYPE>' being compiled
+        with
+        [
+            TYPE=CEntryId,
+            ARG_TYPE=CEntryId &
+        ]
+Daily.cpp
+CommPacket.cpp
+BlockingSocketFile.cpp
+c:\Documents and Settings\mellerts\My Documents\Developer\ARAccelerators\ARS DLL\BlockingSocketFile.h(46) : error C2555: 'CBlockingSocketFile::GetPosition': overriding virtual function return type differs and is not covariant from 'CFile::GetPosition'
+        c:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\atlmfc\include\afx.h(1054) : see declaration of 'CFile::GetPosition'
+c:\Documents and Settings\mellerts\My Documents\Developer\ARAccelerators\ARS DLL\BlockingSocketFile.h(46) : error C2555: 'CBlockingSocketFile::GetLength': overriding virtual function return type differs and is not covariant from 'CFile::GetLength'
+        c:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\atlmfc\include\afx.h(1081) : see declaration of 'CFile::GetLength'
+BackupJob.cpp
+ARSException.cpp
+ARSConnection.cpp
+ARS DLL.cpp
+AckMsg.cpp
+Generating Code...
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Results
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>
+Build log was saved at "file://c:\Documents and Settings\mellerts\My Documents\Developer\ARAccelerators\Ars dll\Debug\BuildLog.htm"
+ARS DLL - 8 error(s), 4 warning(s)</pre></table><table   width=100% height=20 bgcolor=#CFCFE5><tr><td><font face=arial size=+2>
+</font></table></body></html>

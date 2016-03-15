@@ -1,0 +1,115 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ARS DLL - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/ARS DLL.res" /d "_DEBUG" /d "_AFXDLL" "C:\Documents and Settings\mellerts\My Documents\Developer\ARAccelerators\ARS DLL\ARS DLL.rc"" 
+Creating temporary file "C:\DOCUME~1\mellerts\LOCALS~1\Temp\RSP2BC.tmp" with contents
+[
+/nologo /MD /W3 /Gm /GX /ZI /Od /I "..\BackupService" /I "..\..\ARSystem 5.1\include" /I "..\..\CBlockSocket Class" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /FR"Debug/" /Fp"Debug/ARS DLL.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Documents and Settings\mellerts\My Documents\Developer\ARAccelerators\ARS DLL\AckMsg.cpp"
+"C:\Documents and Settings\mellerts\My Documents\Developer\ARAccelerators\ARS DLL\ARS DLL.cpp"
+"C:\Documents and Settings\mellerts\My Documents\Developer\ARAccelerators\ARS DLL\ARSConnection.cpp"
+"C:\Documents and Settings\mellerts\My Documents\Developer\ARAccelerators\ARS DLL\ARSException.cpp"
+"C:\Documents and Settings\mellerts\My Documents\Developer\ARAccelerators\ARS DLL\BackupJob.cpp"
+"C:\Documents and Settings\mellerts\My Documents\Developer\ARAccelerators\ARS DLL\BlockingSocketFile.cpp"
+"C:\Documents and Settings\mellerts\My Documents\Developer\ARAccelerators\ARS DLL\CommPacket.cpp"
+"C:\Documents and Settings\mellerts\My Documents\Developer\ARAccelerators\ARS DLL\Daily.cpp"
+"C:\Documents and Settings\mellerts\My Documents\Developer\ARAccelerators\ARS DLL\DumpARX.cpp"
+"C:\Documents and Settings\mellerts\My Documents\Developer\ARAccelerators\ARS DLL\EntryId.cpp"
+"C:\Documents and Settings\mellerts\My Documents\Developer\ARAccelerators\ARS DLL\Field.cpp"
+"C:\Documents and Settings\mellerts\My Documents\Developer\ARAccelerators\ARS DLL\FieldList.cpp"
+"C:\Documents and Settings\mellerts\My Documents\Developer\ARAccelerators\ARS DLL\Form.cpp"
+"C:\Documents and Settings\mellerts\My Documents\Developer\ARAccelerators\ARS DLL\FormList.cpp"
+"C:\Documents and Settings\mellerts\My Documents\Developer\ARAccelerators\ARS DLL\Globals.cpp"
+"C:\Documents and Settings\mellerts\My Documents\Developer\ARAccelerators\ARS DLL\Monthly.cpp"
+"C:\Documents and Settings\mellerts\My Documents\Developer\ARAccelerators\ARS DLL\Record.cpp"
+"C:\Documents and Settings\mellerts\My Documents\Developer\ARAccelerators\ARS DLL\RecordList.cpp"
+"C:\Documents and Settings\mellerts\My Documents\Developer\ARAccelerators\ARS DLL\Schedule.cpp"
+"C:\Documents and Settings\mellerts\My Documents\Developer\ARAccelerators\ARS DLL\Weekly.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\mellerts\LOCALS~1\Temp\RSP2BC.tmp" 
+Creating temporary file "C:\DOCUME~1\mellerts\LOCALS~1\Temp\RSP2BD.tmp" with contents
+[
+/nologo /MD /W3 /Gm /GX /ZI /Od /I "..\BackupService" /I "..\..\ARSystem 5.1\include" /I "..\..\CBlockSocket Class" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /FR"Debug/" /Fp"Debug/ARS DLL.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Documents and Settings\mellerts\My Documents\Developer\ARAccelerators\ARS DLL\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\mellerts\LOCALS~1\Temp\RSP2BD.tmp" 
+Creating temporary file "C:\DOCUME~1\mellerts\LOCALS~1\Temp\RSP2BE.tmp" with contents
+[
+arapi51.lib BlockingSocket_D.lib Ws2_32.lib /nologo /subsystem:windows /dll /incremental:yes /pdb:"Debug/ARS DLL.pdb" /debug /machine:I386 /nodefaultlib:"MSVCRTD.LIB" /def:".\ARS DLL.def" /out:"Debug/ARS DLL.dll" /implib:"Debug/ARS DLL.lib" /pdbtype:sept /libpath:"..\..\ARSystem 5.1\lib" /libpath:"..\..\CBlockSocket Class\Lib" 
+".\Debug\AckMsg.obj"
+".\Debug\ARS DLL.obj"
+".\Debug\ARSConnection.obj"
+".\Debug\ARSException.obj"
+".\Debug\BackupJob.obj"
+".\Debug\BlockingSocketFile.obj"
+".\Debug\CommPacket.obj"
+".\Debug\Daily.obj"
+".\Debug\DumpARX.obj"
+".\Debug\EntryId.obj"
+".\Debug\Field.obj"
+".\Debug\FieldList.obj"
+".\Debug\Form.obj"
+".\Debug\FormList.obj"
+".\Debug\Globals.obj"
+".\Debug\Monthly.obj"
+".\Debug\Record.obj"
+".\Debug\RecordList.obj"
+".\Debug\Schedule.obj"
+".\Debug\StdAfx.obj"
+".\Debug\Weekly.obj"
+".\Debug\ARS DLL.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\mellerts\LOCALS~1\Temp\RSP2BE.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+AckMsg.cpp
+ARS DLL.cpp
+ARSConnection.cpp
+ARSException.cpp
+BackupJob.cpp
+BlockingSocketFile.cpp
+CommPacket.cpp
+Daily.cpp
+DumpARX.cpp
+EntryId.cpp
+Field.cpp
+FieldList.cpp
+Form.cpp
+FormList.cpp
+Globals.cpp
+Monthly.cpp
+Record.cpp
+RecordList.cpp
+Schedule.cpp
+Weekly.cpp
+Generating Code...
+Linking...
+   Creating library Debug/ARS DLL.lib and object Debug/ARS DLL.exp
+Creating temporary file "C:\DOCUME~1\mellerts\LOCALS~1\Temp\RSP2C2.bat" with contents
+[
+@echo off
+xcopy /y "Debug\ARS DLL.dll" "..\BackupService\Debug\"
+xcopy /y "Debug\ARS DLL.dll" "..\BackupClient\Debug\"
+]
+Creating command line "C:\DOCUME~1\mellerts\LOCALS~1\Temp\RSP2C2.bat"
+Copying files to Test folder
+Debug\ARS DLL.dll
+1 File(s) copied
+Debug\ARS DLL.dll
+1 File(s) copied
+
+
+
+<h3>Results</h3>
+ARS DLL.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
